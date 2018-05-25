@@ -70,14 +70,7 @@ img.b{
 	height: 35px;
 	border-radius: 50px;
 }
-section.edita {
-	background: silver;
-	width: 200px;
-	height: auto;
-	text-align: center;
-	margin: 0px 100px;
 
-}
 @media screen and (min-width: 768px){
 
 	img.logo {
