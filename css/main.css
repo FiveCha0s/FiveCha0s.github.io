@@ -24,7 +24,7 @@ header {
 	position: fixed; /* CABECERA FIJA */
 }
 .logo {
-	width: 150px;
+	width: 200px;
 }
 div.intro {
 	position: fixed;
@@ -46,7 +46,7 @@ li.sub {
 	position: relative;
 }
 
-li.sub:hover > ul {
+li.sub:hover ul {
 	display: block;
 	position: absolute;
 	top: -10px;
@@ -72,20 +72,20 @@ section p {
 }
 /*IMAGENES DE ENLACES*/
 img.b{
-	width: 20px;
-	height: 20px;
+	width: 30px;
+	height: 30px;
 	border-radius: 50px;
 }
 
 @media screen and (min-width: 768px){
 	
 	.logo {
-		width: 200px;
+		width: 250px;
 	}
 
 	img.b{
-		width: 30px;
-		height: 30px;
+		width: 40px;
+		height: 40px;
 		border-radius: 50px;
 	}
  }
