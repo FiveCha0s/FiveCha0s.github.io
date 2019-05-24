@@ -1,17 +1,15 @@
-
 *{
 	padding: 0;
 	margin: 0;
 }
 
 html, body {
-	padding: 0;
- 	margin: 0;
+	
 }
 
 body {
 	background: black;
-	color: white;
+	color: whitesmoke;
 }
 
 .cabe {
@@ -19,7 +17,23 @@ body {
 }
 
 .logo {
+	width:165px;
+}
+
+.section {
+	margin-top: 5px;
+	letter-spacing: 1px;
+	text-align: center;
+	font-size: 19px;
+	background: #201030;
+	color: #dad7bd;
 	width: 200px;
+	height: 300px;
+	padding: 10px;
+	border-radius: 3px;
+	display: block;
+	margin-left: auto; /* PARA CENTRAR LA CAJA*/
+	margin-right: auto;/* PONER LEFT Y RIGHT*/
 }
 
 a {
@@ -28,6 +42,7 @@ a {
 
 .enla {
 	text-align: center;
+	margin-top: 13px;
 }
 
 .foto {
@@ -37,11 +52,16 @@ a {
 	margin-left: 20px;
 	top: -10px;
 	position: relative;
+	float: right;
 }
 
-.section {
-	text-align: center;
 }
+
+.footer {
+	letter-spacing: 1px;
+}
+
+.yea { position: absolute; float: right; }
 
 @media screen and (min-width: 768px) {
 
@@ -50,9 +70,13 @@ a {
 	}
 
 	.logo {
-		height: 75px;
-		width: 300px;
+		width:200px;
 	}
+
+	.section {
+		 	font-size: 22px;
+		 	width: 400px;
+		 }
 
 	.foto {
 		width: 40px;
@@ -62,13 +86,9 @@ a {
 		top: -10px;
 		position: relative;
 	 }
+
+	 
 }
-
-
-
-
-
-
 
 
 
