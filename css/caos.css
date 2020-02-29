@@ -1,0 +1,190 @@
+/* CSS */
+*{
+	padding: 0;
+	margin: 0;
+}
+html, body {
+
+}
+body {
+	background: black;
+	color: silver;
+	font-family: 'Arial Black',courier;
+}
+.header {
+	background: beige;
+	color: black;
+	font-size: 22px;
+	height: 35px;
+}
+#as {
+	margin-left: 20px;
+}
+#be{
+	width: 25px;
+	height: 25px;
+	float: right;
+	border-radius: 50px;
+	display: block;
+	margin-right: 15px;
+}
+
+#cao {
+	width: 35px;
+	height: 35px;
+	margin-left: 2px;
+	position: fixed;
+	top: 20px;
+	padding: 18px 5px;
+	border-radius: 50%;
+}
+.conten {
+	width: 90%;
+	color: silver;
+	letter-spacing: 1px;
+	font-size: 19px;
+	margin-top: 60px;
+	margin-left: 10px;
+	text-align: center;
+}	
+
+#enla {
+	text-decoration: none;
+	color: whitesmoke;
+}
+#enla:hover{
+	color: #fa5858;
+}
+
+/*  CSS PAGE1 */
+#home { 
+	text-decoration: none;
+	color: #00ff40;
+	float: right;
+	margin-right: 30px;
+	margin-top: 10px;
+	font-size: 22px;
+}
+
+#home:hover {
+	color: #fa5858;
+}
+
+.con1 {
+	text-align: center;
+	letter-spacing: 2px;
+	font-size: 30px;
+	margin-top: 80px;
+}
+
+.dibu {
+	width: 50px;
+	height: 100px;
+	background: white;
+	margin-top: 40px;
+	margin-left: 80px;
+	border-radius: 10px;
+}
+
+#dibu1 {
+	position: relative;
+	width: 40px;
+	height: 90px;
+	background: black;
+	top: 4px;
+	left: 10px;
+	border-radius: 40px;
+}
+
+#dis {
+	position: relative;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background: transparent;
+	top: -35px;
+	left: 0px;
+	animation: res 5s infinite;
+}
+@keyframes res {
+	10% { left: 100px; background: transparent; }
+	30% { left: 160px; background: red; }
+	50% { left: 100px; background: transparent; }
+}
+
+#ene {
+	width: 50px;
+	height: 50px;
+	background: #505050;
+	position: relative;
+	top: -110px;
+	left: 180px;
+	border-radius: 10px 10px 20px 10px;
+	animation: exp 5s infinite;
+}
+
+@keyframes exp {
+	10% { border-radius: 50px; }
+}
+
+#footer {
+	width: 100%;
+	text-align: center;
+	margin-top: 125px;
+	font-family: cursive;
+}
+
+/* FINAL CSS PAGE1 */
+#ava{
+	width: 150px;
+	height: auto;
+	display: block;/* CENTRAR IMAGEN */
+	margin: auto;/* CENTRAR IMAGEN */
+	top: 20px;
+	position: relative;
+	border-radius: 10px;
+}
+
+.footer {
+	position: relative;
+	font-family: 'Gothic';
+	font-size: 15px;
+	margin-left: 10px;
+}
+@media screen and (min-width: 768px) {
+	.header {
+		font-size: 30px;
+		height: 30px;
+	}	
+	#as {
+		margin-left: 100px;
+	}
+	#be{
+		width: 30px;
+		height: 30px;
+		float: right;
+		border-radius: 50px;
+		display: block;
+		margin-right: 40px;
+	}
+	#cao {
+		width: 50px;
+		height: 50px;
+		margin-left: 10px;
+		border-radius: 50%;
+	}
+	.conten {
+		font-size: 23px;
+		margin-top: 80px;
+		width: 90%;
+
+	}
+/* CSS PAGE1 */
+	.dibu {
+		margin-left: 250px;
+	}
+/* FIN CSS PAGE1 */	
+}
+
+
+
